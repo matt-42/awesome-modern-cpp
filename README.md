@@ -185,6 +185,7 @@ C++ Benchmark Authoring Library/Framework.
 * [cereal](https://github.com/USCiLab/cereal) - A C++11 library for serialization.
 * [simdjson](https://github.com/lemire/simdjson) - Accelerate the parsing of JSON per se using commonly available SIMD instructions
 * [Boost.JSON](https://github.com/CPPAlliance/json) - A JSON library with robust support for custom allocators.
+* [Lithium::json](https://github.com/matt-42/lithium/tree/master/libraries/json) - A header only C++17 JSON library unrolled at compile time. 
 
 ### String formatting & templating
 
@@ -207,12 +208,14 @@ C++ Benchmark Authoring Library/Framework.
 * [cpr](https://github.com/whoshuu/cpr) - C++ Requests: Curl for People, a spiritual port of Python Requests.
 * [dmbcs-micro-server](https://rdmp.org/dmbcs/micro-server) - C++20-based JSON, HTML, text and PNGs over HTTP; simple way to embed a server into your application to provide a web-based UI.
 * [Drogon](https://github.com/an-tao/drogon) - A C++14/17 based, high-performance HTTP application framework
+* [Lithium::http_backend](https://github.com/matt-42/lithium/tree/master/libraries/http_backend) - A single header C++17 high-performance HTTP application framework.
 * [oat++](https://github.com/oatpp/oatpp) - High-performance Web framework (C++11, zero-dependency).
 * [pistache](http://pistache.io/) - An elegant C++ REST framework.
 * [restbed](https://github.com/Corvusoft/restbed) - Restbed framework brings asynchronous RESTful functionality to C++11 applications.
 
 ### Database
 
+* [Lithium::sql](https://github.com/matt-42/lithium/tree/master/libraries/sql) - Single header drivers and ORM for Sqlite, PostgreSQL and MySQL, sync and async.
 * [mongo-cxx-driver](https://github.com/mongodb/mongo-cxx-driver) - C++ Driver for MongoDB.
 * [redox](https://github.com/hmartiro/redox) - Modern, asynchronous, and wicked fast C++11 client for Redis.
 * [sqlite_orm](https://github.com/fnc12/sqlite_orm) - powerful header only SQLite3 ORM library for C++14.
@@ -237,6 +240,7 @@ C++ Benchmark Authoring Library/Framework.
 * [IntX](https://github.com/ron4fun/IntXLib4CPP) - A C++11 port of IntX arbitrary precision Integer library with speed, about O(N * log N) multiplication/division algorithms implementation.
 * [iod](https://github.com/matt-42/iod) -  Meta programming utilities for C++14.
 * [Magic Enum](https://github.com/Neargye/magic_enum) - Static reflection for enums (to string, from string, iteration) for modern C++, work with any enum type without any macro or boilerplate code.
+* [Lithium::metamap](https://github.com/matt-42/lithium/tree/master/libraries/metamap) - Compile time key value maps using POD objects as backend.  
 * [Wise Enum](https://github.com/quicknir/wise_enum) - Static reflection for enums similar to Magic Enum but works with C++ 11/14/17. 
 * [Nameof](https://github.com/Neargye/nameof) - A header-only C++17 library provides nameof macros and functions to obtain the simple name of variable, type, function, macro, and enum.
 * [PEGTL](https://github.com/taocpp/PEGTL) - Parsing Expression Grammar Template Library (C++11, header-only).
